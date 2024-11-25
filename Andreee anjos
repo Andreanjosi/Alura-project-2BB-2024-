@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Seu Nome</h1>
+      <ul>
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Bem-vindo ao meu portfólio! Sou um desenvolvedor apaixonado por criar soluções incríveis. Aqui você encontrará informações sobre mim e meus projetos.</p>
+  </section>
+
+  <section id="projetos">
+    <h2>Meus Projetos</h2>
+    <div class="projeto">
+      <h3>Projeto 1</h3>
+      <p>Descrição do projeto 1.</p>
+    </div>
+    <div class="projeto">
+      <h3>Projeto 2</h3>
+      <p>Descrição do projeto 2.</p>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <form action="https://formsubmit.co/seuemail@exemplo.com" method="POST">
+      <input type="text" name="nome" placeholder="Seu Nome" required>
+      <input type="email" name="email" placeholder="Seu E-mail" required>
+      <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
